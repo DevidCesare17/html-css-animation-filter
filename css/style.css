@@ -36,6 +36,10 @@
   width: 100px;
   height: 100px;
   background: red;
+  transition: background 2s; /*soluzione esercizio 4*/
+}
+.ex-4-square:hover { /*soluzione esercizio 4*/
+  background: transparent;
 }
 
 /* Esercizio 5 */
