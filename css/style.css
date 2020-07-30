@@ -99,11 +99,37 @@
 /* Esercizio 10 */
 .ex-10-icon {
   font-size: 60px;
+  animation: loading10 1s linear infinite; /*soluzione esercizio 10*/
+}
+@keyframes loading10 { /*soluzione esercizio 10*/
+  0% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Esercizio 11 */
 .ex-11-icon {
   font-size: 60px;
+}
+.ex-11-icon:hover{ /*soluzione esercizio 11*/
+  animation: loading11 1s linear;
+}
+@keyframes loading11 { /*soluzione esercizio 11*/
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 /* Esercizio 12 */
