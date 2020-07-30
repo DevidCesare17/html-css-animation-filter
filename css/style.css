@@ -162,6 +162,28 @@
   width: 60px;
   height: 20px;
 }
+.ex-12-button:hover .ex-12-top-white{ /*soluzione esercizio 12*/
+  animation: topwhite12 1.5s linear;
+}
+@keyframes topwhite12 { /*soluzione esercizio 12*/
+  0%{
+    left: 10%;
+  }
+  50%{
+    left: calc(90% - 60px);
+  }
+}
+.ex-12-button:hover .ex-12-bottom-white{ /*soluzione esercizio 12*/
+  animation: bottomwhite12 1.5s linear;
+}
+@keyframes bottomwhite12 { /*soluzione esercizio 12*/
+  0%{
+    right: 20%;
+  }
+  50%{
+    right: calc(80% - 60px);
+  }
+}
 
 /* Esercizio 13 */
 .ex-13-button {
