@@ -68,6 +68,10 @@
 /* Esercizio 7 */
 .ex-7-img {
   width: 500px;
+  transition: filter 2s; /*soluzione esercizio 7*/
+}
+.ex-7-img:hover { /*soluzione esercizio 7*/
+  filter: grayscale(1) sepia(0.3);
 }
 
 /* Esercizio 8 */
