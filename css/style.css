@@ -1,3 +1,4 @@
+/* Esercizio 1 */
 .ex-1-square {
   width: 100px;
   height: 100px;
@@ -8,21 +9,32 @@
   background: red;
 }
 
+/* Esercizio 2 */
 .ex-2-square {
   width: 100px;
   height: 100px;
   background: red;
+  transition: width 2s; /*soluzione esercizio 2*/
 }
+.ex-2-square:active { /*soluzione esercizio 2*/
+  width: 100%;
+}
+
+/* Esercizio 3 */
 .ex-3-square {
   width: 100px;
   height: 100px;
   background: red;
 }
+
+/* Esercizio 4 */
 .ex-4-square {
   width: 100px;
   height: 100px;
   background: red;
 }
+
+/* Esercizio 5 */
 .ex-5-square {
   margin: 20px;
   width: 60px;
